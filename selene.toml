@@ -1,0 +1,6 @@
+std = "roblox"
+
+[config]
+empty_if = { comments_count = true }
+multiple_statements = { one_line_if = "deny" }
+unused_variable = { allow_unused_self = false }
