@@ -16,7 +16,9 @@ local function parse(str)
 		local partData = split(line, " ")
 		table.insert(modelData, {
 			partType = partTypeDictionary[partData[1]];
+
 			material = partData[11];
+			brickColor = partData[12];
 
 			position = newVector3(partData[2], partData[3], partData[4]);
 			size = newVector3(partData[5], partData[6], partData[7]);

@@ -7,7 +7,9 @@ local function build(modelData)
 
 		part.Size = partData.size
 		part.CFrame = CFrame.lookAt(partData.position, partData.position + partData.lookAt)
+
 		part.Shape = partData.partType.shape
+		part.BrickColor = BrickColor.new(partData.brickColor or 194) -- Keep compatibility with non-brickcolor files.
 		part.Material = partData.material
 
 		part.Anchored = true
