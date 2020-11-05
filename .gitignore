@@ -1,2 +1,9 @@
 # Roblox standard library
 roblox.toml
+
+# Roblox place file
+/poopy-parser.rbxlx
+
+# Roblox lock files
+*.rbxl.lock
+*.rbxlx.lock
